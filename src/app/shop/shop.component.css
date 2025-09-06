@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.4rem;
+  font-family: "Cinzel Decorative";
+  margin: 2.5rem;
+}
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  background-color: var(--tan)
+}
+
+
+img {
+ width: 40rem;
+ justify-self: center;
+ margin-top: 4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: "Open Sans";
+  line-height: 3rem;
+  max-width: 50%;
+  align-self: center;
+  padding: 3rem;
+}
+
+
+/* 1408px */
+@media(max-width: 88em) {
+  p {
+    max-width: 75%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* 1008px */
+@media(max-width: 63em) {
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  img {
+    width: 35rem;
+  }
+
+  p {
+    line-height: 2rem;
+    font-size: 1.6rem;
+    max-width: 85%;
+  }
+}
+
+/* 752em */
+@media(max-width: 47em) {
+
+  p {
+    max-width: 95%;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  img {
+    width: 30rem;
+  }
+
+   h1 {
+    font-size: 2.4rem;
+  }
+
+}
+
+/* 592px */
+@media(max-width: 37em) {
+  .shop-container {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  img {
+    width: 22rem;
+  }
+
+  p {
+    text-align: center;
+    line-height: 1.4rem;
+  }
+}

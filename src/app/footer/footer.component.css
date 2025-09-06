@@ -1,0 +1,120 @@
+.container {
+  background-color: var(--tan);
+  padding: 10rem;
+  max-width: 100%;
+}
+
+p {
+  font-size: 2.4rem;
+}
+
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+li {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+
+.button-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 10rem 5rem 0;
+}
+
+button {
+  background-color: var(--tan);
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 10rem;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", serif;
+}
+
+.logo {
+  max-width: 100%;
+  text-align: center;
+}
+
+
+/* 1056px */
+@media(max-width: 66em) {
+
+  .container {
+    padding: 6rem;
+  }
+
+  li {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+/* 850px */
+@media(max-width: 50em) {
+
+  li {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  ul {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-title {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  img {
+    width: 7rem;
+  }
+
+  .footer-bottom {
+    gap: none;
+  }
+
+}
+
+/* 576px */
+@media(max-width: 36em) {
+
+  ul {
+    grid-template-columns: 1fr;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .button-container {
+    padding: 3rem;
+  }
+}

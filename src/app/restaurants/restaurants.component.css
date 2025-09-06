@@ -1,0 +1,255 @@
+.container {
+  margin-bottom: 5rem;
+}
+
+.title-container {
+  margin: 5rem auto;
+  background-color: var(--tan);
+  max-width: 50%;
+  padding: 5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Cinzel Decorative", 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  font-family: "the-seasons", 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 3rem;
+  line-height: 2.4rem;
+}
+
+.restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 30%;
+  margin: 10rem auto;
+  max-width: 65%;
+}
+
+.restaurants-container img {
+  width: 70%;
+  margin-top: 5rem;
+}
+
+.res-item {
+  text-align: center;
+  width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container p {
+  padding: 1rem;
+}
+
+.res-item button {
+  border: 1px solid #000;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  margin-top: auto;
+  justify-content: center;
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  justify-content: center;
+}
+
+.chef-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  justify-content: center;
+  background-color: var(--tan);
+  padding: 5rem 0;
+  max-width: 65%;
+}
+
+.chef-img-container {
+  max-width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.chef-text-container {
+    margin: 10rem auto;
+}
+
+.chef-img-container img {
+  width: 50rem;
+  padding: 2rem;
+}
+
+.chef-text-container p {
+  width: 80%;
+  line-height: 3rem;
+  margin: 0 auto;
+}
+
+/* ********************* */
+/* BEGIN MEDIA QUERIES */
+/***********************/
+
+/* 2050px */
+@media(max-width: 128em) {
+
+  .restaurants-container {
+    /* max-width: 70%; */
+  }
+
+  .restaurants-container p {
+    padding: 1rem;
+  }
+
+}
+
+
+/* 1888px */
+@media(max-width: 118em) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .chef-container {
+    max-width: 75%;
+  }
+
+  .chef-text-container p {
+    padding: 3rem;
+    width: 90%;
+  }
+
+  .title-container {
+    max-width: 60%;
+  }
+
+}
+
+/* 1552px */
+@media(max-width: 97em) {
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+
+  .chef-img-container img {
+    width: 40rem;
+  }
+}
+
+/* 1300px */
+@media(max-width:82em) {
+
+  .restaurants-container {
+    margin: 2rem auto;
+  }
+
+  .chef-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4rem 0;
+  }
+
+  .chef-img-container img {
+    width: 30rem;
+  }
+
+  .chef-text-container {
+    margin: 2rem auto;
+  }
+
+  p {
+    line-height: 2rem;
+  }
+
+  .chef-text-container p {
+    line-height: 2rem;
+  }
+
+}
+
+/* 800px */
+@media(max-width: 50em){
+  .title-container {
+    max-width: 70%;
+  }
+
+  p {
+    line-height: 1.5rem;
+    padding: 2rem;
+  }
+}
+
+/* 560px */
+  @media(max-width:35em) {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      font-size: 1.6rem;
+    }
+
+    .title-container {
+      padding: 1rem;
+      max-width: 90%;
+    }
+
+    .chef-container {
+      max-width: 90%;
+    }
+
+
+    .chef-text-container p {
+      line-height: 1.5rem;
+      padding: 1rem;
+    }
+  }
+

@@ -1,0 +1,124 @@
+.container {
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 3.6rem;
+  padding: 3rem;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  background-color: var(--tan);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+.img {
+  padding: 5rem 3rem;
+}
+
+
+h3 {
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: "the-seasons", serif;
+  padding-top: 3rem;
+}
+
+p {
+  font-size: 2.4rem;
+  padding: 2rem 4rem;
+
+}
+
+/* ********************* */
+/* BEGIN MEDIA QUERIES */
+/***********************/
+
+
+/* 1600px */
+@media(max-width: 100em) {
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+    padding-top: 1rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .img {
+    padding: 5rem 2rem;
+  }
+}
+
+
+/* 1450px */
+@media(max-width: 91em) {
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+}
+
+
+/* 1000px */
+@media(max-width: 63em) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .img {
+    padding: 3rem 1rem;
+  }
+}
+
+/* 750px */
+@media(max-width: 47em) {
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 425px */
+@media(max-width: 27em) {
+  .img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

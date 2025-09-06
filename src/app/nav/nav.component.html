@@ -1,0 +1,39 @@
+<nav class="container">
+<div class="menu-container">
+  <!-- Toggle Button -->
+  <span class="material-symbols-outlined menu-icon" (click)="toggleMenu()">
+    {{ menuOpen ? 'close' : 'menu' }}
+  </span>
+
+  <!-- Fullscreen Overlay Menu -->
+  <div class="overlay" [ngClass]="{ 'active': menuOpen }">
+    <div class="nav-links">
+      <ul>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/home" (click)="closeMenu()">Home</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/rooms" (click)="closeMenu()">Rooms and Suites</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/restaurants" (click)="closeMenu()">Restaurants</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/howtogethere" (click)="closeMenu()">How to Get Here</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/activities" (click)="closeMenu()">Activities</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/contact" (click)="closeMenu()">Contact</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/seasons" (click)="closeMenu()">Seasons</a></li>
+        <li><span class="material-symbols-outlined">add_2</span><a routerLink="/shop" (click)="closeMenu()">Shop</a></li>
+
+
+      </ul>
+        <hr>
+        <button class="booking-btn"><a routerLink="/booking">Booking</a></button>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="logo-container">
+    <a href="/home"><img src="assets/logo.png" alt="castle logo"></a>
+    <p>NEUSCHWANSTEIN CASTLE</p>
+  </div>
+
+  <div class="booking-container">
+    <button><p><a routerLink="/booking">Booking</a></p></button>
+  </div>
+</nav>

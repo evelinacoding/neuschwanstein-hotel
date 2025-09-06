@@ -1,0 +1,131 @@
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url("/assets/banner-castle.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.title-container {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-family: "Cinzel Decorative", 'Times New Roman', Times, serif;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-family: "Cinzel Decorative", 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 2rem;
+  font-family: "the-seasons", 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding: 3rem;
+}
+
+.activities-text {
+  margin: 5rem auto;
+  padding: 10rem;
+  width: 50%;
+  background-color: var(--tan);
+  text-align: center;
+}
+
+.activities-img-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+img {
+  width: 30rem;
+}
+
+/* ********************* */
+/* BEGIN MEDIA QUERIES */
+/***********************/
+
+/* 1360px */
+@media(max-width: 85em) {
+
+  .activities-text {
+    padding: 5rem;
+  }
+}
+
+/* 1008px */
+@media(max-width: 63em) {
+
+  .container {
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 2.2;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  .activities-text {
+    padding: 2rem;
+    width: 75%;
+  }
+}
+
+@media(max-width: 32em) {
+
+  .container {
+    max-width: 100%;
+  }
+
+  .banner {
+    height: 40vh;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 1rem;
+  }
+}

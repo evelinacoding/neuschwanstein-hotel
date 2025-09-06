@@ -1,0 +1,358 @@
+<div class="container">
+  <header>
+
+    <div class="banner-info-mini">
+      <p>Neuschwanstein Castle Hotel</p>
+      <br>
+      <p>+49 323 3234</p>
+      <br>
+      <p>www.neuschwansteinhotel.de</p>
+    </div>
+  </header>
+
+  <div class="main-content-container">
+    <div class="banner-info-container">
+      <h3>BOOKING MULTIPLE ROOMS</h3>
+
+      <p>To book several rooms click <strong>add a room</strong> after selecting the first room.</p><br>
+      <h3>ADDITIONAL OCCUPANCY OPTIONS</h3>
+
+      <p>Please contact us directly via email at booking&#64;neuschwanstein.de to book a room for 3 or more adults or if you are traveling with children.</p>
+    </div>
+
+    <div class="form-container">
+      <mat-card-content>
+        <mat-form-field>
+          <mat-label>Enter a date range</mat-label>
+          <mat-date-range-input [rangePicker]="picker">
+            <input matStartDate placeholder="Start date">
+            <input matEndDate placeholder="End date">
+          </mat-date-range-input>
+          <!-- <mat-hint>MM/DD/YYYY - MM/DD/YYYY</mat-hint> -->
+          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-date-range-picker #picker></mat-date-range-picker>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="number">
+        <mat-label for="adults">Adults</mat-label>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="number">
+        <mat-label>Rooms</mat-label>
+        </mat-form-field>
+      </mat-card-content>
+    </div>
+
+    <div class="rooms-container">
+
+      <!-- SUITE -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/suite-room.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">shower</span>
+            <p>Separate shower</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>SUITE</h3>
+          <ul>
+            <li>1 Queen bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Mountain View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>1200 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">1200 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- JUNIOR ROYAL SUITE -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/junior-royal.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">shower</span>
+            <p>Separate shower</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>JUNIOR ROYAL SUITE</h3>
+          <ul>
+            <li>1 Queen bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Mountain View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>1400 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">1400 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- JUNIOR GARDEN SUITE -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/junior-garden-suite.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">bathtub</span>
+            <p>Bathtub</p>
+            <span class="material-symbols-outlined">fireplace</span>
+            <p>Fireplace</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>JUNIOR GARDEN SUITE</h3>
+          <ul>
+            <li>1 King bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Garden View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>1600 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">1600 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ROYAL SUITE -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/royal-suite.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">bathtub</span>
+            <p>Bathtub</p>
+            <span class="material-symbols-outlined">fireplace</span>
+            <p>Fireplace</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>ROYAL SUITE</h3>
+          <ul>
+            <li>1 Queen bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Mountain View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>1600 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">1600 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ELEGANCE SUITE -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/elegance-suite.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">bathtub</span>
+            <p>Bathtub</p>
+            <span class="material-symbols-outlined">fireplace</span>
+            <p>Fireplace</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>ELEGANCE SUITE</h3>
+          <ul>
+            <li>1 Queen bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Mountain View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>1400 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">1400 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- KING SUITE -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/king-suite.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">bathtub</span>
+            <p>Bathtub</p>
+            <span class="material-symbols-outlined">fireplace</span>
+            <p>Fireplace</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>KING SUITE</h3>
+          <ul>
+            <li>1 Queen bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Castle and Mountain View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>2000 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">2000 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DELUXE ROOM -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/deluxe-room.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">shower</span>
+            <p>Separate shower</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>DELUXE ROOM</h3>
+          <ul>
+            <li>1 Queen bed</li>
+            <li>Sitting area - Some rooms with desk</li>
+            <li>Mountain View</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>1400 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">1400 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CLASSIC ROOM -->
+      <div class="room-container">
+        <div class="room-img-container">
+          <img src="assets/classic-room.jpg" alt="suite">
+          <div class="img-icons">
+            <span class="material-symbols-outlined">shower</span>
+            <p>Separate shower</p>
+          </div>
+        </div>
+        <div class="room-text-container">
+          <h3>CLASSIC ROOM</h3>
+          <ul>
+            <li>1 Queen bed</li>
+          </ul>
+          <hr>
+          <div class="price-container">
+            <div class="icons">
+              <p>Best Available Rate</p>
+              <span class="material-symbols-outlined">payments</span>
+              <i>Deposit Required</i>
+              <br>
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <i>Breakfast Included</i>
+
+            </div>
+            <div class="price">
+              <p>900 USD</p>
+              <p>Total for 1 night</p>
+              <p class="light-font">900 Per Night</p>
+              <p class="light-font">Including taxes and fees</p>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

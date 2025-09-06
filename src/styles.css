@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --tan: #f1eeea;
+  --darktan: #a88d69;
+}
+
+
+/* By default most browsers set
+their font-size base to 16px.
+62.5% of 16px is 10px which is
+much easier to work with. */
+
+html {
+  font-size: 62.5%;
+  font-family: "Opera Sans", Arial, Helvetica, sans-serif;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

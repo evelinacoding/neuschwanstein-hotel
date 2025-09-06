@@ -1,0 +1,156 @@
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Cinzel Decorative", 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 5rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 4rem 4rem;
+  background-color: var(--tan);
+}
+
+.text-item {
+  text-align: center;
+  align-self: flex-end;
+}
+
+h3 {
+  font-size: 2.8rem;
+  margin: 1rem;
+}
+
+.weddings img {
+  width: 30rem;
+}
+
+.events img {
+  width: 55rem;
+}
+
+.christmas img {
+  width: 30rem;
+}
+
+button {
+  background-color: var(--tan);
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* ********************* */
+/* BEGIN MEDIA QUERIES */
+/***********************/
+
+/* 1760px */
+@media(max-width: 110em) {
+
+  .container {
+    max-width: 85%;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+    margin: 1rem 0 0 0;
+  }
+
+  .weddings img {
+    width: 25rem;
+  }
+
+  .events img {
+    width: 50rem;
+  }
+
+  .christmas img {
+    width: 25rem;
+  }
+}
+
+/* 1360px */
+@media(max-width: 85em) {
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .weddings img {
+    width: 20rem;
+  }
+
+  .events img {
+    width: 45rem;
+  }
+
+  .christmas img {
+    width: 20rem;
+  }
+}
+
+/* 800px */
+@media(max-width: 50em) {
+
+  .container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* 608px */
+@media(max-width: 38em) {
+
+  .events img {
+    width: 35em;
+  }
+
+  h1 {
+    padding: 3rem;
+  }
+}
+
+/* 432px */
+@media(max-width: 27em) {
+
+  .container {
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .weddings img {
+    width: 15rem;
+  }
+
+  .events img {
+    width: 30rem;
+  }
+
+  .christmas img {
+    width: 15rem;
+  }
+
+}

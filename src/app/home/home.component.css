@@ -1,0 +1,633 @@
+header {
+  background-image: url("/assets/home-banner.jpg");
+  height: 90vh;
+  background-size: cover;
+}
+
+.input-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tan);
+  padding: 2rem;
+}
+
+label {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.input-container input {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+
+}
+
+.arrival input {
+  width: 25rem;
+}
+
+.departure input {
+  width: 25rem;
+}
+
+.adults input {
+  width: 10rem;
+}
+
+.rooms input {
+  width: 10rem;
+}
+
+.adults input {
+    padding: 21px;
+}
+
+.rooms input {
+  padding: 21px;
+}
+
+.check-btn {
+  background-color: var(--darktan);
+  padding: 1.5rem;
+  border: 1px solid #000;
+  color: #fff;
+  margin-left: 5rem;
+  width: 40rem;
+  font-size: 1.6rem;
+}
+
+.section-text {
+  max-width: 75%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "the-seasons", sans-serif;
+  font-size: 3rem;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.img-item {
+  flex: 1;
+  text-align: center;
+  margin: 2rem;
+}
+
+.img-item img {
+  width: 100%;
+  height: auto;
+  max-width: 70rem;
+}
+
+.img-item h3 {
+  font-family: "the-seasons", 'Times New Roman', Times, serif;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.img-container p {
+  font-size: 1.6rem;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.details-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+  gap: 2rem;
+  padding: 5rem 0;
+  margin: 5rem 0;
+  background-color: var(--tan);
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-item {
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+/* Images */
+.blueberry {
+  width: 10rem;
+}
+
+.bird {
+  width: 15rem;
+}
+
+.leaf {
+  width: 7rem;
+}
+
+.detail-item h3 {
+  padding: 1rem;
+}
+
+.detail-item p {
+  font-size: 1.8rem;
+}
+
+.detail-item button {
+  border: 1px solid #000;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.hotel-info {
+  display: flex;
+  justify-content: center;
+}
+
+.castle-img-container {
+  width: 25%;
+  text-align: center;
+  margin-right: 10rem;
+}
+
+.castle-img-container img {
+  width: 40rem;
+}
+
+.btn-container button {
+  width: 10rem;
+  border: 1px solid #000;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.castle-img-container p {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.castle-text-container {
+  /* background-color: cadetblue; */
+  width: 25%;
+}
+
+.castle-text h3 {
+  font-family: "the-seasons", 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+.castle-text p {
+  font-size: 1.6rem;
+  line-height: 18px;
+}
+
+.social-container p {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+.media-img {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 4rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+ .media-img img {
+  width: 100%;
+}
+
+.update {
+  font-size: 1.6rem;
+  margin: 1rem;
+}
+
+.update-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newsletter-container {
+  width: 40%;
+}
+
+.newsletter-container h3 {
+  font-family: "the-seasons", 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 2.8rem;
+  margin-bottom: 10rem;
+}
+
+.email-container {
+  margin-bottom: 5rem;
+}
+
+.email-container input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 1rem;
+  width: 30rem;
+  font-size: 1.6rem;
+}
+
+.email-container button {
+  border-radius: 30px;
+  padding: 2rem;
+  margin-left: 2rem;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+
+/* ********************* */
+/* BEGIN MEDIA QUERIES */
+/***********************/
+
+/* 1712px */
+@media(max-width: 107em) {
+
+  .check-btn {
+    width: 25rem;
+  }
+
+}
+
+/* 1632px */
+@media(max-width: 102em) {
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .castle-text-container {
+    width: 30%;
+  }
+
+  .castle-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .castle-img-container {
+    width: 40%;
+    margin-right: 5rem;
+  }
+
+  .castle-img-container img {
+    width: 37rem;
+  }
+
+  .castle-text p {
+    font-size: 1.4rem;
+  }
+
+  /* .media-img {
+    margin: 2rem;
+  } */
+
+   /* .media-img img{
+
+  } */
+}
+
+/* 1568px */
+@media(max-width: 98em) {
+
+  .input-container input {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .arrival input {
+    width: 15rem;
+  }
+
+  .departure input {
+    width: 15rem;
+  }
+
+  .adults input {
+    width: 7rem;
+  }
+
+  .rooms input {
+    width: 7rem;
+  }
+
+  .check-btn {
+    width: 20rem;
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+
+  label {
+    font-size: 1.6rem;
+  }
+}
+
+/* 1312px */
+@media(max-width: 82em) {
+
+  .check-btn {
+    width: 15rem;
+  }
+
+  .section-text {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .img-item img {
+    width: 85%;
+  }
+
+  .img-item h3 {
+    font-size: 2rem;
+  }
+
+  .img-container p {
+    font-size: 1.4rem;
+  }
+
+  .detail-item h3 {
+    font-size: 2rem;
+  }
+
+  .detail-item p {
+    font-size: 1.4rem;
+    max-width: 55%;
+  }
+
+  .castle-text-container {
+    width: 45%;
+  }
+
+  .newsletter-container {
+    width: 55%;
+    justify-items: center;
+  }
+
+  .newsletter-container h3 {
+    font-size: 2.4rem;
+  }
+
+  .email-container input {
+    width: 25rem;
+  }
+
+  .email-container button {
+    font-size: 1.4rem;
+  }
+}
+
+/* 1104px */
+@media(max-width: 69em) {
+
+  .input-container {
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .input-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1rem;
+  }
+
+   label {
+    padding: 1rem 0;
+  }
+
+  .check-btn {
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+
+
+
+}
+
+/* 864px */
+@media(max-width: 54em) {
+
+  header {
+    height: 75vh;
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .check-btn {
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 30rem;
+  }
+
+  .input-container div {
+    align-items: center;
+  }
+
+  .input-container input {
+    width: 30rem;
+    padding: 2rem;
+  }
+
+  label {
+    text-align: center;
+  }
+
+  .img-item h3 {
+    font-size: 1.8rem;
+  }
+
+  .img-item img {
+    width: 95%;
+  }
+
+  .img-container p {
+    max-width: 95%;
+  }
+
+  .detail-item button {
+    margin: 1rem 0;
+  }
+
+  .hotel-info {
+    margin: 2rem;
+  }
+
+  .castle-img-container {
+    margin-right: 2rem;
+  }
+
+  .castle-img-container img {
+    width: 25rem;
+  }
+
+  .castle-text-container {
+    width: 75%;
+  }
+
+  .castle-text h3 {
+    font-size: 1.6rem;
+  }
+
+  .castle-text p {
+    line-height: 14px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .bird {
+    width: 10rem;
+  }
+
+  .leaf {
+    width: 5rem;
+  }
+
+  .blueberry {
+    width: 7rem;
+  }
+
+  .media-img {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .newsletter-container {
+    width: 100%;
+  }
+
+  .newsletter-container h3 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .email-container {
+    margin-bottom: 2rem;
+  }
+
+  .email-container button {
+    padding: 1rem;
+  }
+}
+
+/* 672px */
+@media(max-width: 42em) {
+
+  header {
+    height: 60vh;
+  }
+
+  .img-container {
+    flex-direction: column;
+  }
+
+  .details-container {
+    gap: 4rem;
+  }
+
+  .detail-item {
+    flex: none;
+  }
+
+  .hotel-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .castle-text-container {
+    width: 100%;
+  }
+
+  .castle-img-container {
+    align-items: center;
+    margin-right: 0;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .castle-img-container img {
+    width: 30rem;
+  }
+
+  .castle-text-container {
+    text-align: center;
+  }
+
+   .castle-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .castle-text h1 {
+    font-size: 2rem;
+  }
+
+  .castle-text p {
+    line-height: 1.8rem;
+  }
+
+  .social-container p {
+    font-size: 1.4rem;
+  }
+
+  .media-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .update {
+    font-size: 1.4rem;
+  }
+
+  .email-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .newsletter-container h3 {
+    font-size: 1.6rem;
+  }
+
+  .email-container input {
+    text-align: center;
+  }
+
+}
+
+/* 464px */
+@media(max-width: 29em) {
+
+  .castle-text p {
+
+  }
+}
