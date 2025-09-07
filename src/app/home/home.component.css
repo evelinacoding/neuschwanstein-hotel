@@ -4,6 +4,10 @@ header {
   background-size: cover;
 }
 
+button {
+  color: var(--darktan);
+}
+
 .input-container {
   max-width: 100%;
   display: flex;
@@ -11,6 +15,12 @@ header {
   align-items: center;
   background-color: var(--tan);
   padding: 2rem;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 label {
@@ -153,6 +163,7 @@ h1 {
   background-color: #fff;
   padding: 1rem;
   margin: 2rem 0;
+  color: var(--darktan);
 }
 
 .hotel-info {

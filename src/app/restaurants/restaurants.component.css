@@ -78,6 +78,7 @@ button {
   background-color: #fff;
   padding: 1rem 3rem;
   justify-content: center;
+  color: var(--darktan);
 }
 
 .chef-container {

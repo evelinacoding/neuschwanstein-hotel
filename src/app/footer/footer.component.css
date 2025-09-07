@@ -8,6 +8,14 @@ p {
   font-size: 2.4rem;
 }
 
+a {
+  color: var(--darktan);
+}
+
+a:hover {
+  color: var(--darktan);
+}
+
 
 ul {
   display: grid;
@@ -33,6 +41,7 @@ button {
   border: 1px solid #000;
   border-radius: 20px;
   padding: 10px;
+  color: var(--darktan);
 }
 
 .footer-bottom {
