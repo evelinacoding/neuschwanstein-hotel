@@ -21,14 +21,7 @@ button {
 input[type="date"] {
   -webkit-appearance: none; /* strip native Safari styles */
   appearance: none;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1.6rem;
-  padding: 2rem;
-  text-align: center;
   width: 25rem; /* match .arrival / .departure */
-  color: #333;
   box-sizing: border-box;
 }
 
