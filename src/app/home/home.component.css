@@ -21,7 +21,6 @@ button {
 input[type="date"] {
   -webkit-appearance: none; /* strip native Safari styles */
   appearance: none;
-  background-color: #fff;
   border: 1px solid #000;
   border-radius: 4px;
   font-size: 1.6rem;
@@ -29,6 +28,8 @@ input[type="date"] {
   text-align: center;
   width: 25rem; /* match .arrival / .departure */
   box-sizing: border-box;
+  line-height: normal;   /* normalize Safari’s shorter line-height */
+  height: 5.6rem;        /* explicitly match the other inputs’ total height */
 }
 
 
@@ -42,7 +43,7 @@ label {
   text-align: center;
   font-size: 1.6rem;
   border-radius: 4px;
-
+  border: 1px solid #000;
 }
 
 .arrival input {
