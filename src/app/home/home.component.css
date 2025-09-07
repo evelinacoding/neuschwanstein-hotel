@@ -31,12 +31,6 @@ input[type="date"] {
   box-sizing: border-box;
 }
 
-/* Remove the extra calendar icon space in Safari */
-input[type="date"]::-webkit-calendar-picker-indicator {
-  opacity: 0;
-  display: none;
-}
-
 
 label {
   font-size: 2rem;
@@ -47,6 +41,7 @@ label {
   padding: 2rem;
   text-align: center;
   font-size: 1.6rem;
+  border-radius: 4px;
 
 }
 
