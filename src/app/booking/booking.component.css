@@ -121,6 +121,7 @@ button {
   padding: 1rem 3rem;
   margin: 4rem 0 0 0;
   font-size: 1.8rem;
+  color: var(--darktan);
 }
 
 /* ********************* */
