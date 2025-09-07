@@ -21,6 +21,7 @@ button {
 input[type="date"] {
   -webkit-appearance: none; /* strip native Safari styles */
   appearance: none;
+  background-color: #fff;
   border: 1px solid #000;
   border-radius: 4px;
   font-size: 1.6rem;
