@@ -255,6 +255,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   align-self: center;
+  justify-content: center;
 }
 
 .newsletter-container h3 {
@@ -550,6 +551,7 @@ h1 {
   }
   .newsletter-container {
     width: 100%;
+    margin: 0 auto;
   }
 
   .newsletter-container h3 {

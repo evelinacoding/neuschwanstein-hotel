@@ -103,8 +103,12 @@ button {
   max-width: 100%;
   width: 100%;
   padding: 2rem 5rem;
+  color: var(--darktan);
 }
 
+button:hover {
+  color: var(--darktan);
+}
 
 /* ********************* */
 /* BEGIN MEDIA QUERIES */
