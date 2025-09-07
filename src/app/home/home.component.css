@@ -17,17 +17,27 @@ button {
   padding: 2rem;
 }
 
-input[type='date'] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+/* Force Safari date inputs to behave like text inputs */
+input[type="date"] {
+  -webkit-appearance: none; /* strip native Safari styles */
   appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  padding: 2rem;
+  text-align: center;
+  width: 25rem; /* match .arrival / .departure */
+  color: #333;
+  box-sizing: border-box;
 }
 
-input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+/* Remove the extra calendar icon space in Safari */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
 }
+
 
 label {
   font-size: 2rem;
