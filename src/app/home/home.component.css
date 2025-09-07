@@ -23,6 +23,11 @@ input[type='date'] {
   appearance: none;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 label {
   font-size: 2rem;
   padding: 1rem 2rem;
