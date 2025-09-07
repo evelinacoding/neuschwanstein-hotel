@@ -250,6 +250,7 @@ h1 {
 
 .newsletter-container {
   width: 40%;
+  margin: 0 auto;
 }
 
 .newsletter-container h3 {
@@ -408,6 +409,7 @@ h1 {
   .newsletter-container {
     width: 55%;
     justify-items: center;
+    align-items: center;
   }
 
   .newsletter-container h3 {
@@ -645,10 +647,3 @@ h1 {
 
 }
 
-/* 464px */
-@media(max-width: 29em) {
-
-  .castle-text p {
-
-  }
-}
